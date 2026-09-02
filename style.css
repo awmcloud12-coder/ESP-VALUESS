@@ -232,7 +232,38 @@ section:hover {
     background: #d6336c;
     transform: scale(1.05);
 }
-    
+    html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 6px auto;
+        max-width: 250px;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: 220px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
 
 
     
