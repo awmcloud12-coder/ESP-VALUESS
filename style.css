@@ -86,7 +86,22 @@ main {
     border-radius: 20px;
     margin-bottom: 20px;
 }
-    
+    nav {
+    background: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #e75480;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
     
 
 
