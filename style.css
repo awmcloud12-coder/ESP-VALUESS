@@ -118,6 +118,33 @@ nav a:hover {
 .about-me strong {
     color: #d6336c;
 }
+.message-box {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.message-box h2 {
+    color: #e75480;
+}
+
+.message-box button {
+    background: #e75480;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.message-box button:hover {
+    background: #d6336c;
+}
     
 
 
