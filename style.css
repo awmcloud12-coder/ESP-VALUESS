@@ -170,6 +170,22 @@ nav a:hover {
         grid-template-columns: 1fr;
     }
 }
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(231, 84, 128, 0.25);
+}
+
+section {
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-2px);
+}
     
 
 
